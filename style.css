@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+.whoweareimg,
+.mottoimg{
+  border-radius: 40px;
+}
+.first {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./img/notebook.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  padding-top: 40px;
+}
+header img {
+  width: 100px;
+}
+.navLinks ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+.navLinks ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #eeeeee;
+  text-transform: capitalize;
+}
+.navLinks ul li a:hover {
+  color: #aa14f0;
+  transition: 0.4s;
+}
+.navLinks ul li:hover::after {
+  width: 100%;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  gap: 40px;
+}
+span {
+  color: #aa14f0;
+}
+.welcome {
+  font-size: 20px;
+  color: #eeeeee;
+}
+.mainHeading {
+  font-size: 60px;
+  color: #eeeeee;
+}
+button {
+  font-size: 25px;
+  background: none;
+  padding: 20px;
+  cursor: pointer;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  margin: 10px;
+}
+button:hover {
+  background-color: #aa14f0;
+  color: #eeeeee;
+  transition: transform 0.4s;
+  border: 1px solid #eeeeee;
+}
+.buttonOne {
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  padding: 300px 0 0 0;
+  gap: 120px;
+  margin: auto;
+  border: none;
+}
+.texttwo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 30px;
+}
+.whoweare {
+  color: #bc8cf2;
+  font-size: 30px;
+  font-weight: bold;
+}
+.aboutdes {
+  font-size: 25px;
+  color: #eeeeee;
+}
+.buttonTwo {
+  color: #aa14f0;
+  border: 1px solid #aa14f0;
+}
+.whoweareimg {
+  background-image: url(./img/collegePremises.jpg);
+  width: 40%;
+  height: 400px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.mottoimg {
+  background-image: url(./img/writing.jpg);
+  width: 40%;
+  height: 400px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.blackBg {
+  background-color: #000000;
+}
+.subheading {
+  font-size: 40px;
+  color: #000000;
+}
+form {
+  width: 60%;
+  margin: auto;
+  margin-top: 300px;
+  font-size: 20px;
+  color: #000000;
+  background-color: #bc8cf2;
+  border-radius: 40px;
+  padding: 80px;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: none;
+  padding: 80px 0;
+}
+label {
+  font-size: 30px;
+}
+input[type="text"],
+input[type="email"] {
+  border: 1px solid darkgray;
+  font-size: 16px;
+  padding: 15px;
+}
+input[type="submit"] {
+  font-size: 25px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #aa14f0;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+input[type="submit"]:hover {
+  background-color: #eeeeee;
+  color: #aa14f0;
+  transition: transform 0.4s;
+  border: 1px solid #aa14f0;
+}
+.result {
+  font-size: 20px;
+  color: #ff0000;
+}
+.logo a img {
+  height: 130px;
+}
+.line {
+  background-color: #bc8cf2;
+  height: 1px;
+  width: 90%;
+  margin: auto;
+  margin-top: 300px;
+}
+footer {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #eeeeee;
+}
+.footerContent {
+  padding: 100px 80px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerMenu {
+  width: 10%;
+}
+.footerMenu ul {
+  list-style: none;
+}
+.footerMenu ul li a {
+  color: #eeeeee;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footerMenu ul li a:hover {
+  color: #aa14f0;
+  transition: 0.4s;
+}
+.emailPhone {
+  font-size: 20px;
+  line-height: 40px;
+  padding: 30px 0;
+}
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+.copyright {
+  padding-top: 10px;
+}
